@@ -1,0 +1,146 @@
+body {
+  height: 100vh;
+  font-family: "Poppins", sans-serif;
+  font-size: 100%;
+  overflow: hidden;
+  background: linear-gradient(180deg, #ffffff 0%, #f3f4f6 100%);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.con-user {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 10px;
+  width: 100%;
+  height: 250px;
+  padding-bottom: 10px;
+}
+
+.avatar img {
+  width: 100px;
+  border-radius: 50%;
+  margin-top: 20px;
+  filter: drop-shadow(0 5px 10px rgba(0, 0, 0, 0.1));
+}
+
+.con-user .title {
+  width: 100%;
+  color: #333333;
+  z-index: 2;
+}
+.con-user .title h1 {
+  font-size: 1.1rem;
+  margin-top: 10px;
+}
+
+.con-user .title p {
+  font-size: 0.9rem;
+  font-weight: 400;
+  opacity: 0.7;
+  margin-top: 5px;
+}
+
+hr {
+  margin: 20px auto 0;
+  height: 1px;
+  border: none;
+  width: 100px;
+  max-width: 100px;
+  background-color: rgba(222, 222, 222, 0.8);
+}
+
+.tag h4 {
+  text-align: center;
+  color: #636363;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.con-btn {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.con-links {
+  padding: 15px 20px;
+  padding-top: 0px;
+  max-width: 500px;
+  width: 100%;
+  min-width: 100%;
+  scroll-snap-align: center;
+  flex: 1;
+  overflow: auto;
+  padding-top: 20px;
+  z-index: 2;
+}
+
+.con-links a {
+  display: block;
+  width: 100%;
+  padding: 18px 22px;
+  text-decoration: none;
+  font-size: 1rem;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(90deg, rgb(54, 196, 144) 0%, #1e90b4 98.1%);
+  box-shadow: 0px 10px 30px rgba(51, 134, 203, 0.2);
+  border-radius: 7px;
+  margin-bottom: 16px;
+  position: relative;
+}
+
+.con-links a:hover {
+  background: rgb(83, 206, 161);
+}
+
+.con-links a img {
+  max-width: 22px;
+  position: absolute;
+  left: 20px;
+}
+
+.con-links a i {
+  font-size: 1.6rem;
+  position: absolute;
+  left: 20px;
+  /* margin-right: 8px; */
+}
+.con-links a span {
+  text-align: center;
+}
+.con-links a span p {
+  font-size: 0.8rem;
+}
+
+.copyright {
+  color: #777777;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.copyright span:nth-last-child(1) {
+  margin-top: 5px;
+}
