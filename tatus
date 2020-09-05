@@ -1,0 +1,29 @@
+[33mcommit 8a5ba2789a6a6390aa85e42e3322d8b6dc4fc688[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Gusti Maulan <gmaulan47@gmail.com>
+Date:   Sat Sep 5 09:53:19 2020 +0700
+
+    add fallback color to image and resize image
+
+[33mcommit 0ad6475311573023d32321cee3d4297103329d8c[m
+Author: Gusti Maulan <gmaulan47@gmail.com>
+Date:   Thu Aug 20 23:16:24 2020 +0700
+
+    change dev to developer
+
+[33mcommit b7c86d4d86bacf0ff1a4c9a085270a57711a4d18[m
+Author: gustimaulan <69741540+gustimaulan@users.noreply.github.com>
+Date:   Thu Aug 20 21:36:10 2020 +0700
+
+    update style.css
+
+[33mcommit 4e4e85a6ce7f6988aa3caffa7aa2c9bf29e84e0f[m
+Author: gustimaulan <69741540+gustimaulan@users.noreply.github.com>
+Date:   Thu Aug 20 21:23:48 2020 +0700
+
+    add initial files
+
+[33mcommit 9713e225f3aea02505640258ae2b1817ac28ca63[m
+Author: gustimaulan <69741540+gustimaulan@users.noreply.github.com>
+Date:   Thu Aug 20 21:01:04 2020 +0700
+
+    Initial commit
